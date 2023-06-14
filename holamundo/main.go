@@ -6,14 +6,20 @@ package main
 
 //que pedo, es con git ahuevo esto
 import (
-	"fmt"
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/ejercicios/holamundo/Variables"
+	"fmt"
+	//strconv es un paquete para conversion a string
 	//poner el path completo del proyecto
 )
-//Las funciones que se pueden acceder desde eafurea son Nombre y las internas son nombre
+
+// Las funciones que se pueden acceder desde eafurea son Nombre y las internas son nombre
 // Funcion principal de go, el main tiene que ir así ahuevo.
-//El package es a huevo main en este caso, el nombre del archivo no.
+// El package es a huevo main en este caso, el nombre del archivo no.
 func main() {
 	fmt.Println("Primer mensaje")
 	Variables.Numenteros()
+	Variables.Resta()
+	fmt.Println("Resta con parametros: ",Variables.Restaparametros(55,12))
 }
+
+//git status git add . git commit git push
