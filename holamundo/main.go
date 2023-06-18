@@ -3,10 +3,10 @@ package main
 //El package hae referencia a dentro de que carpeta estan los archivos go neceasrio
 //por ejemplo para archivos go de variabes en una carpeta llamada variables e llamaria package go
 //Si no esta dentro de una carpeta el package es main.
-
+//comando para iniciarlo en go es go mod init y la ruta del archivo
 //que pedo, es con git ahuevo esto
 import (
-	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/ejercicios/holamundo/Variables"
+	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Variables"
 	"fmt"
 
 	//strconv es un paquete para conversion a string
