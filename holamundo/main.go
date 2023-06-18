@@ -6,6 +6,7 @@ package main
 //comando para iniciarlo en go es go mod init y la ruta del archivo
 //que pedo, es con git ahuevo esto
 import (
+	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Ejercicios"
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Variables"
 	"fmt"
 
@@ -18,6 +19,8 @@ import (
 // Funcion principal de go, el main tiene que ir así ahuevo.
 // El package es a huevo main en este caso, el nombre del archivo no.
 func main() {
+	var str string
+	var no int
 	fmt.Println("Primer mensaje")
 	Variables.Numenteros()
 	Variables.Resta()
@@ -39,6 +42,10 @@ func main() {
 		ftm.printf("%s \n",os)
 	}
 	**/
+
+	no, str = Ejercicios.Ejer("500")
+	fmt.Println("Enviado: ", no)
+	fmt.Println("Recibido", str)
 }
 
 //git status git add . git commit git push
