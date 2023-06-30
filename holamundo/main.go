@@ -8,6 +8,7 @@ package main
 import (
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Ejercicios"
 	entradadatos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/EntradaDatos"
+	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Iteraciones"
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Variables"
 	"fmt"
 	//strconv es un paquete para conversion a string
@@ -49,15 +50,14 @@ func main() {
 	fmt.Println("Recibido", str)
 	Variables.Resta()
 	entradadatos.DeteccionEntrada()
-	
+
 	//For infinito
-	for{
-
-		break
-		//Sirve para reemplazar un while
-	}
-	
-
+	//for{
+	// Instruction set for the loop goes here
+	//	break
+	//Sirve para reemplazar un while
+	//}
+	Iteraciones.CicloFor()
 }
 
 //git status git add . git commit git push

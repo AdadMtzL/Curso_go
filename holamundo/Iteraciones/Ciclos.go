@@ -13,5 +13,9 @@ func CicloFor() {
 		break //Condición de término del ciclo
 	}
 	**/
-	
+	i := 0
+	for i < 10 {
+		fmt.Println(i)
+		i++
+	}
 }
