@@ -49,6 +49,14 @@ func main() {
 	fmt.Println("Recibido", str)
 	Variables.Resta()
 	entradadatos.DeteccionEntrada()
+	
+	//For infinito
+	for{
+
+		break
+		//Sirve para reemplazar un while
+	}
+	
 
 }
 
