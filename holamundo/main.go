@@ -6,6 +6,7 @@ package main
 //comando para iniciarlo en go es go mod init y la ruta del archivo
 //que pedo, es con git ahuevo esto
 import (
+	archivos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Archivos"
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Ejercicios"
 	entradadatos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/EntradaDatos"
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Iteraciones"
@@ -58,7 +59,8 @@ func main() {
 	//Sirve para reemplazar un while
 	//}
 	Iteraciones.CicloFor()
-	Ejercicios.Ej2()
+	archivos.Arch()
+
 }
 
 //git status git add . git commit git push
