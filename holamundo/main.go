@@ -58,6 +58,7 @@ func main() {
 	//Sirve para reemplazar un while
 	//}
 	Iteraciones.CicloFor()
+	Ejercicios.Ej2()
 }
 
 //git status git add . git commit git push
