@@ -23,6 +23,6 @@ func Arch() {
 	if err != nil {
 		panic("Error al crear el archivo")
 	}
-	fmt.Println(archivo, textoF)
+	fmt.Fprintln(archivo, textoF)
 	archivo.Close()
 }
