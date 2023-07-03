@@ -7,10 +7,8 @@ package main
 //que pedo, es con git ahuevo esto
 import (
 	archivos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Archivos"
-	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Ejercicios"
 	entradadatos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/EntradaDatos"
 	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Iteraciones"
-	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Variables"
 	"fmt"
 	//strconv es un paquete para conversion a string
 	//poner el path completo del proyecto
@@ -21,8 +19,8 @@ import (
 // Funcion principal de go, el main tiene que ir así ahuevo.
 // El package es a huevo main en este caso, el nombre del archivo no.
 func main() {
-	var str string
-	var no int
+	//var str string
+	//var no int
 	fmt.Println("Primer mensaje")
 
 	//	Variables.Numenteros()
@@ -46,10 +44,10 @@ func main() {
 	}
 	**/
 
-	no, str = Ejercicios.Ejer("500")
-	fmt.Println("Enviado: ", no)
-	fmt.Println("Recibido", str)
-	Variables.Resta()
+	//no, str = Ejercicios.Ejer("500")
+	//fmt.Println("Enviado: ", no)
+	//fmt.Println("Recibido", str)
+	//Variables.Resta()
 	entradadatos.DeteccionEntrada()
 
 	//For infinito

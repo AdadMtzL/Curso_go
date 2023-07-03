@@ -3,7 +3,7 @@ package funciones
 import "fmt"
 
 //Función anonima
-func an1() {
+func An1() {
 	//Las variables declaradas aqui antes de la función anonima pueden interactuar con esta
 	//De manera simple
 	suma := func(n1 int, n2 int) int {
