@@ -25,4 +25,7 @@ func Arch() {
 	}
 	fmt.Fprintln(archivo, textoF)
 	archivo.Close()
+	//Para abrir un archivo esarch,err := os.OpenFile(FileName,Os.O_WRONLY | os.O_APPEND,permisos tipolinux) Esto es para cuando un archivo pueda seguir recibiendo texto
+	//Escritura de texto tambien se puede  con arch.WriteString(texto)
+	//Siempre cerrar el archivo
 }
