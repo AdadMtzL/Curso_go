@@ -6,7 +6,7 @@ package main
 //comando para iniciarlo en go es go mod init y la ruta del archivo
 //que pedo, es con git ahuevo esto
 import (
-	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/webserver"
+	middleware "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Middleware"
 	"fmt"
 	//strconv es un paquete para conversion a string
 	//poner el path completo del proyecto
@@ -59,7 +59,9 @@ func main() {
 	//Iteraciones.CicloFor()
 	//archivos.Arch()
 
-	webserver.Webserver()
+	//webserver.Webserver()
+
+	middleware.MiMidlleware()
 }
 
 //git status git add . git commit git push

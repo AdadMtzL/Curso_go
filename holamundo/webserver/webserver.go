@@ -12,3 +12,4 @@ func Webserver() {
 func home(w http.ResponseWriter, r *http.Request) {
 	http.ServeFile(w, r, "./webserver/index.html")
 }
+
