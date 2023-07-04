@@ -6,9 +6,7 @@ package main
 //comando para iniciarlo en go es go mod init y la ruta del archivo
 //que pedo, es con git ahuevo esto
 import (
-	archivos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Archivos"
-	entradadatos "Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/EntradaDatos"
-	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/Iteraciones"
+	"Users/19286463/Desktop/Cursos/Desarrollodesde0/seccion8_Go/Curso_go/holamundo/webserver"
 	"fmt"
 	//strconv es un paquete para conversion a string
 	//poner el path completo del proyecto
@@ -48,7 +46,8 @@ func main() {
 	//fmt.Println("Enviado: ", no)
 	//fmt.Println("Recibido", str)
 	//Variables.Resta()
-	entradadatos.DeteccionEntrada()
+
+	//entradadatos.DeteccionEntrada()
 
 	//For infinito
 	//for{
@@ -56,9 +55,11 @@ func main() {
 	//	break
 	//Sirve para reemplazar un while
 	//}
-	Iteraciones.CicloFor()
-	archivos.Arch()
 
+	//Iteraciones.CicloFor()
+	//archivos.Arch()
+
+	webserver.Webserver()
 }
 
 //git status git add . git commit git push
